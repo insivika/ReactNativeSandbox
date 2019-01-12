@@ -36,3 +36,7 @@ react-native run-ios
 
 ## Redux Explained 
 
+## Resources that helped me learn
+
+https://www.infoq.com/articles/react-native-introduction
+
