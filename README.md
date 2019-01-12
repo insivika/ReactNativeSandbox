@@ -31,16 +31,23 @@ Copy/paste the following comand into your terminal and run
 
 1. Node/npm - Node runs JavaScript outside the browser while we'll npm to install dependencies that are specific to your application.
 
-In your terminal
-``` brew install node ```
+In your terminal run the following:
+
+``` 
+brew install node 
+```
 
 1. Watchman - If you've used webpack-dev-server before then you'll be very familiar with the functionality of this tool. It waits for changes in our code base and updates the mobile accordingly.
 
-``` brew install watchman ```
+``` 
+brew install watchman 
+```
 
 1. RN CLI - Allows us to generate new react native projects and run them in the simulator.
 
-``` npm install -g react-native-cli ```
+``` 
+npm install -g react-native-cli 
+```
 
 
 ### To create a new project
