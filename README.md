@@ -18,6 +18,9 @@ I'll be using the set up for iOS since that the OS I'm personally most interesti
 
 React Native relies on the following dependencies:
 1. **XCode** - Apples official IDE for developing software for any official Apple device. We will use x-code to build our Apps and install them on a mobile device. X-code also comes with the iOS simulator which is a tool that allows you run mobile apps directly on you desktop/laptop.
+  1. Go to the app store on your macbook or desktop
+  1. Search for xcode and download
+  1. IMPORTANT - if you already have xcode installed make sure to update to the lates version
 
 Download and walk through the installation. You may have to verify your Apple ID.
 
@@ -51,6 +54,14 @@ npm install -g react-native-cli
 
 
 ### To create a new project
+
+In your terminal cd into the folder into which you'd like to place the root directory of your project. 
+
+```
+react-native init projectName
+```
+
+once that's done installing, cd into the root of your app and run
 
 ```
 react-native run-ios
