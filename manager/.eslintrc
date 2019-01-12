@@ -3,7 +3,8 @@
 
   "rules": {
     "arrow-body-style": 0,
-    "eol-last": 0
+    "eol-last": 0,
+    "import/no-extraneous-dependencies": ["error", {"devDependencies": true}]
   }
 
 }
