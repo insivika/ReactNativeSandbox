@@ -74,6 +74,14 @@ react-native run-ios
 
 ## Redux Explained 
 
+#### General Flow of things
+
+#### Boilerplate set up
+
+#### Synchronous vs Asynchronous Action Creators 
+
+#### Handling Asynchronous Actions Creators via Thunk
+
 ## Resources that helped me learn
 
 https://www.infoq.com/articles/react-native-introduction
