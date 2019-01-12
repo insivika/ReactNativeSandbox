@@ -8,6 +8,8 @@ An important question to consider: Is the code we write in React Native trully n
 
 The answer is yes! In React, the component describes its own appearance; React then handles the rendering for you. React uses a seamless abstraction layer ("bridge") in between these two tasks to engage with the actual rendering APIs on iOS and Android. On iOS this means that your React Native component will render to real UI Views, while on Android, they'll render to native Views. 
 
+![reactnativeexplanation](https://user-images.githubusercontent.com/33808429/51068518-38b2c200-15d4-11e9-890b-0612292cdeee.png)
+
 
 
 ## Set up and Terminal commands to get going
