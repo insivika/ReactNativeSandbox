@@ -72,9 +72,14 @@ react-native run-ios
 
 ## Notes on Styling in React Native
 
-## Redux Explained 
+## Redux
 
 #### General Flow of things
+
+##### Sync Flow
+
+![reduxin5](https://user-images.githubusercontent.com/33808429/51070185-f00a0180-15f1-11e9-9b2f-9747a648344d.png)
+
 
 #### Boilerplate set up
 
