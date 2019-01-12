@@ -17,19 +17,19 @@ The answer is yes! In React, the component describes its own appearance; React t
 I'll be using the set up for iOS since that the OS I'm personally most interesting in developing for. 
 
 React Native relies on the following dependencies:
-1. XCode - Apples official IDE for developing software for any official Apple device. We will use x-code to build our Apps and install them on a mobile device. X-code also comes with the iOS simulator which is a tool that allows you run mobile apps directly on you desktop/laptop.
+1. **XCode** - Apples official IDE for developing software for any official Apple device. We will use x-code to build our Apps and install them on a mobile device. X-code also comes with the iOS simulator which is a tool that allows you run mobile apps directly on you desktop/laptop.
 
 Download and walk through the installation. You may have to verify your Apple ID.
 
 
-2. HomeBrew - A Mac OSX dependency managagment package we'll use to install node.
+2. **HomeBrew** - A Mac OSX dependency managagment package we'll use to install node.
 
 Copy/paste the following comand into your terminal and run
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-3. Node/npm - Node runs JavaScript outside the browser while we'll npm to install dependencies that are specific to your application.
+3. **Node/npm** - Node runs JavaScript outside the browser while we'll npm to install dependencies that are specific to your application.
 
 In your terminal run the following:
 
@@ -37,13 +37,13 @@ In your terminal run the following:
 brew install node 
 ```
 
-4. Watchman - If you've used webpack-dev-server before then you'll be very familiar with the functionality of this tool. It waits for changes in our code base and updates the mobile accordingly.
+4. **Watchman** - If you've used webpack-dev-server before then you'll be very familiar with the functionality of this tool. It waits for changes in our code base and updates the mobile accordingly.
 
 ``` 
 brew install watchman 
 ```
 
-5. RN CLI - Allows us to generate new react native projects and run them in the simulator.
+5. **RN CLI** - Allows us to generate new react native projects and run them in the simulator.
 
 ``` 
 npm install -g react-native-cli 
