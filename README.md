@@ -8,6 +8,8 @@ An important question to consider: Is the code we write in React Native trully n
 
 The answer is yes! In React, the component describes its own appearance; React then handles the rendering for you. React uses a seamless abstraction layer ("bridge") in between these two tasks to engage with the actual rendering APIs on iOS and Android. On iOS this means that your React Native component will render to real UI Views, while on Android, they'll render to native Views. 
 
+
+
 ## Set up and Terminal commands to get going
 
 I'll be using the set up for iOS since that the OS I'm personally most interesting in developing for. 
@@ -18,6 +20,10 @@ React Native relies on the following dependencies:
 1. Node/npm - Node runs JavaScript outside the browser while we'll npm to install dependencies that are specific to your application.
 1. Watchman - If you've used webpack-dev-server before then you'll be very familiar with the functionality of this tool. It waits for changes in our code base and updates the mobile accordingly.
 1. RN CLI - Allows us to generate new react native projects and run them in the simulator.
+
+Please dyor on how to install the above necessities.
+
+### To create a new project
 
 ```
 react-native run-ios
